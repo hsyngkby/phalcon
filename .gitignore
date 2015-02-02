@@ -1,4 +1,6 @@
-/storage
 /vendor
 .env
 /.idea
+
+storage/framework/config.php
+storage/logs/app.log

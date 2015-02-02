@@ -21,7 +21,7 @@ try {
 //
 //    $app->make('cookies')->set('deneme1','3',time() + 15 * 86400);
 
-    dd($app->get('cookies')->get('deneme')->getValue());
+//    dd($app->get('cookies')->get('deneme')->getValue());
 
 } catch (\Phalcon\Exception $e) {
     //Hata olduğunda ekrana bas
