@@ -1,0 +1,43 @@
+{
+    "name": "hsyngkby/hsyngkby",
+    "description": "HsynGkby Platform with phalcon",
+    "authors": [
+        {
+            "name": "Hüseyin GÖKBAY",
+            "email": "huseyingokbay@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4.0",
+        "phalcon/incubator": "v1.3.4",
+        "vlucas/phpdotenv": "~1.0@dev",
+
+        "illuminate/filesystem" : "~5.0@dev"
+    },
+
+    "require-dev":{
+        "symfony/var-dumper": "3.0.*@dev"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Hsyngkby\\" : "src/Hsyngkby"
+        },
+        "classmap": [
+
+        ],
+        "files":[
+            "src/Hsyngkby/Support/Helpers.php"
+        ]
+
+    },
+
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,22 @@
+{
+    "providers": [
+        "Hsyngkby\\Cache\\CacheServiceProvider",
+        "Hsyngkby\\Events\\EventsServiceProvider",
+        "Hsyngkby\\Database\\DatabaseServiceProvider"
+    ],
+    "eager": [
+        "Hsyngkby\\Events\\EventsServiceProvider"
+    ],
+    "deferred": {
+        "cache": "Hsyngkby\\Cache\\CacheServiceProvider",
+        "cache.store": "Hsyngkby\\Cache\\CacheServiceProvider",
+        "memcached.connector": "Hsyngkby\\Cache\\CacheServiceProvider",
+        "command.cache.clear": "Hsyngkby\\Cache\\CacheServiceProvider",
+        "command.cache.table": "Hsyngkby\\Cache\\CacheServiceProvider",
+        "db": "Hsyngkby\\Database\\DatabaseServiceProvider"
+    },
+    "when": {
+        "Hsyngkby\\Cache\\CacheServiceProvider": [],
+        "Hsyngkby\\Database\\DatabaseServiceProvider": []
+    }
+}
