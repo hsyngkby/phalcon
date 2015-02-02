@@ -10,5 +10,5 @@ return [
     'Hsyngkby\Support\Bootstrap\RegisterCoreProviders', //Core Un Providerları
     'Hsyngkby\Support\Bootstrap\RegisterProviders',     //Provider ları register et ve config veya herlper dosyaları varsa yükle
     'Hsyngkby\Support\Bootstrap\BootProviders',         //Provider ların boot functionlarını çalıştır
-    'Hsyngkby\Support\Bootstrap\CacheConfigfile'        //Config dosyalarını ayrı ayrı okumak yerine cache yapacak
+    'Hsyngkby\Support\Bootstrap\CacheConfigFile'        //Config dosyalarını ayrı ayrı okumak yerine cache yapacak
 ];

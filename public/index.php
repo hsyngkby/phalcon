@@ -16,6 +16,8 @@ try {
 //    //işlem bitti ekrana cıktıyı bas
 //    echo $app->handle()->getContent();
 
+dd(Config::get());
+
 
 } catch (\Phalcon\Exception $e) {
     //Hata olduğunda ekrana bas

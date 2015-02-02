@@ -37,6 +37,10 @@ class Repository extends PHConfig
         $this->merge($arr);
     }
 
+    public function all(){
+        return $this->toArray();
+    }
+
     public function get($index = NULL, $defaultValue = NULL)
     {
         if ($index == NULL)
