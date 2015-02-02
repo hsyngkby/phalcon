@@ -22,10 +22,11 @@ trait ApplicationCall
 
         if (isset($this->deferredServices[$abstract]))
         {
-            $this->loadDeferredProvider($abstract);
+            $this->instence[$abstract] = $this->loadDeferredProvider($abstract);
         }
 
         $this->instence[$abstract] = parent::get($abstract, $parameters);
+
         return $this->instence[$abstract];
 
     }
@@ -49,7 +50,7 @@ trait ApplicationCall
         // of deferred services, since it will already be loaded on subsequent.
         if ( ! isset($this->loadedProviders[$provider]))
         {
-            $this->registerDeferredProvider($provider, $service);
+            return $this->registerDeferredProvider($provider, $service);
         }
     }
     /**
@@ -75,6 +76,8 @@ trait ApplicationCall
                 $this->bootProvider($instance);
             });
         }
+
+        return $instance;
     }
 
     /**

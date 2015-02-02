@@ -66,8 +66,8 @@ class ProviderRepository
         if (isset($manifest['when'])) {
             foreach ($manifest['when'] as $provider => $events) {
 
-                $t = forward_static_call([$provider ,'loadConfig'], $this->app);
-                $t = forward_static_call([$provider , 'loadHelper'], $this->app);
+                forward_static_call([$provider ,'loadConfig'], $this->app);
+                forward_static_call([$provider , 'loadHelper'], $this->app);
 
                 $this->registerLoadEvents($provider, $events);
             }
@@ -79,6 +79,9 @@ class ProviderRepository
 
         foreach ($manifest['eager'] as $provider) {
             __l('[ProviderRepository] Register : ' . $provider);
+
+            forward_static_call([$provider ,'loadConfig'], $this->app);
+            forward_static_call([$provider , 'loadHelper'], $this->app);
 
             $this->app->register($this->createProvider($provider));
         }

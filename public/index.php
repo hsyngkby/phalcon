@@ -16,8 +16,12 @@ try {
 //    //işlem bitti ekrana cıktıyı bas
 //    echo $app->handle()->getContent();
 
-dd(Config::get());
 
+//    $app->make('cookies')->set('deneme','asdas123',time()+100);
+//
+//    $app->make('cookies')->set('deneme1','3',time() + 15 * 86400);
+
+    dd($app->get('cookies')->get('deneme')->getValue());
 
 } catch (\Phalcon\Exception $e) {
     //Hata olduğunda ekrana bas

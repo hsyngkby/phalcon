@@ -2,7 +2,8 @@
     "providers": [
         "Hsyngkby\\Cache\\CacheServiceProvider",
         "Hsyngkby\\Events\\EventsServiceProvider",
-        "Hsyngkby\\Database\\DatabaseServiceProvider"
+        "Hsyngkby\\Database\\DatabaseServiceProvider",
+        "Hsyngkby\\Cookie\\CookieServiceProvider"
     ],
     "eager": [
         "Hsyngkby\\Events\\EventsServiceProvider"
@@ -13,10 +14,12 @@
         "memcached.connector": "Hsyngkby\\Cache\\CacheServiceProvider",
         "command.cache.clear": "Hsyngkby\\Cache\\CacheServiceProvider",
         "command.cache.table": "Hsyngkby\\Cache\\CacheServiceProvider",
-        "db": "Hsyngkby\\Database\\DatabaseServiceProvider"
+        "db": "Hsyngkby\\Database\\DatabaseServiceProvider",
+        "cookies": "Hsyngkby\\Cookie\\CookieServiceProvider"
     },
     "when": {
         "Hsyngkby\\Cache\\CacheServiceProvider": [],
-        "Hsyngkby\\Database\\DatabaseServiceProvider": []
+        "Hsyngkby\\Database\\DatabaseServiceProvider": [],
+        "Hsyngkby\\Cookie\\CookieServiceProvider": []
     }
 }

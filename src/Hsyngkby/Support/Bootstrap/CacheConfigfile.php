@@ -15,7 +15,7 @@ class CacheConfigFile
      */
     public function bootstrap(Application $app)
     {
-        if ($app->getVariable('env') == 'production') return;
+        if ($app->getVariable('env') === 'production') return;
 
         $filesystem = new Filesystem();
         $file = $app->storagePath() . '/framework/config.php';
