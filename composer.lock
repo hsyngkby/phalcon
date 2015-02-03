@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7eb31a4fc96aafd34bc22613dda2ccc3",
+    "hash": "5f8abc44c8e8c4301f2f75db024dd7ec",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -135,12 +135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "25b694793871dbcca6c022b81d99a0134a4ead3f"
+                "reference": "e9d98d820300288ac902bd3f6b35a9f5cb7fe2cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/25b694793871dbcca6c022b81d99a0134a4ead3f",
-                "reference": "25b694793871dbcca6c022b81d99a0134a4ead3f",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/e9d98d820300288ac902bd3f6b35a9f5cb7fe2cb",
+                "reference": "e9d98d820300288ac902bd3f6b35a9f5cb7fe2cb",
                 "shasum": ""
             },
             "require": {
@@ -168,7 +168,7 @@
                 }
             ],
             "description": "The Illuminate Contracts package.",
-            "time": "2015-01-29 21:57:23"
+            "time": "2015-01-30 19:09:31"
         },
         {
             "name": "illuminate/filesystem",
@@ -225,12 +225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "f5125c84a008afede4c76f69fbc39a6e8d897901"
+                "reference": "80ce429ad661f928a5c5dc56bf338b19567ee0b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/f5125c84a008afede4c76f69fbc39a6e8d897901",
-                "reference": "f5125c84a008afede4c76f69fbc39a6e8d897901",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/80ce429ad661f928a5c5dc56bf338b19567ee0b9",
+                "reference": "80ce429ad661f928a5c5dc56bf338b19567ee0b9",
                 "shasum": ""
             },
             "require": {
@@ -268,7 +268,7 @@
                 }
             ],
             "description": "The Illuminate Support package.",
-            "time": "2015-01-29 21:57:23"
+            "time": "2015-02-01 18:56:22"
         },
         {
             "name": "league/flysystem",
@@ -276,12 +276,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "06e66fd27841a1ec2fc170543fde9d07e010a6d6"
+                "reference": "7c96b75441002fb6799a4e355f2190b9d905782d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/06e66fd27841a1ec2fc170543fde9d07e010a6d6",
-                "reference": "06e66fd27841a1ec2fc170543fde9d07e010a6d6",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/7c96b75441002fb6799a4e355f2190b9d905782d",
+                "reference": "7c96b75441002fb6799a4e355f2190b9d905782d",
                 "shasum": ""
             },
             "require": {
@@ -351,7 +351,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2015-01-27 22:14:47"
+            "time": "2015-02-01 15:53:05"
         },
         {
             "name": "phalcon/incubator",
@@ -502,16 +502,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v1.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "732d2adb7d916c9593b9d58c3b0d9ebefead07aa"
+                "reference": "c5232d963bca31ab886fb40ab706d89f42769fcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/732d2adb7d916c9593b9d58c3b0d9ebefead07aa",
-                "reference": "732d2adb7d916c9593b9d58c3b0d9ebefead07aa",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/c5232d963bca31ab886fb40ab706d89f42769fcc",
+                "reference": "c5232d963bca31ab886fb40ab706d89f42769fcc",
                 "shasum": ""
             },
             "require": {
@@ -523,7 +523,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -549,7 +549,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2014-12-05 15:19:21"
+            "time": "2015-01-30 14:58:26"
         }
     ],
     "packages-dev": [

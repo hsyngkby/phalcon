@@ -16,6 +16,7 @@ return [
         'Hsyngkby\Events\EventsServiceProvider',
         'Hsyngkby\Database\DatabaseServiceProvider',
         'Hsyngkby\Cookie\CookieServiceProvider',
+        'Hsyngkby\Session\SessionServiceProvider',
     ],
 
     'aliases' => [

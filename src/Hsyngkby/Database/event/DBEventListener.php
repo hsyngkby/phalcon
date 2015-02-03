@@ -18,7 +18,7 @@ class DBEventListener
     public function beforeQuery($event, $connection)
     {
         //__l('DBEventListener : beforeQuery');
-        $this->_time = microtime_float();
+        //$this->_time = microtime_float();
         //__l('DBEventListener : microtime_float = ' . $this->_time);
     }
 

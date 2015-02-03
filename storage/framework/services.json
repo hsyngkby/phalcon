@@ -3,7 +3,8 @@
         "Hsyngkby\\Cache\\CacheServiceProvider",
         "Hsyngkby\\Events\\EventsServiceProvider",
         "Hsyngkby\\Database\\DatabaseServiceProvider",
-        "Hsyngkby\\Cookie\\CookieServiceProvider"
+        "Hsyngkby\\Cookie\\CookieServiceProvider",
+        "Hsyngkby\\Session\\SessionServiceProvider"
     ],
     "eager": [
         "Hsyngkby\\Events\\EventsServiceProvider"
@@ -15,11 +16,20 @@
         "command.cache.clear": "Hsyngkby\\Cache\\CacheServiceProvider",
         "command.cache.table": "Hsyngkby\\Cache\\CacheServiceProvider",
         "db": "Hsyngkby\\Database\\DatabaseServiceProvider",
-        "cookies": "Hsyngkby\\Cookie\\CookieServiceProvider"
+        "cookies": "Hsyngkby\\Cookie\\CookieServiceProvider",
+        "flash": "Hsyngkby\\Session\\SessionServiceProvider",
+        "session": "Hsyngkby\\Session\\SessionServiceProvider",
+        "session.file": "Hsyngkby\\Session\\SessionServiceProvider",
+        "session.database": "Hsyngkby\\Session\\SessionServiceProvider",
+        "session.memcache": "Hsyngkby\\Session\\SessionServiceProvider",
+        "session.mongo": "Hsyngkby\\Session\\SessionServiceProvider",
+        "session.redis": "Hsyngkby\\Session\\SessionServiceProvider",
+        "session.handlersocket": "Hsyngkby\\Session\\SessionServiceProvider"
     },
     "when": {
         "Hsyngkby\\Cache\\CacheServiceProvider": [],
         "Hsyngkby\\Database\\DatabaseServiceProvider": [],
-        "Hsyngkby\\Cookie\\CookieServiceProvider": []
+        "Hsyngkby\\Cookie\\CookieServiceProvider": [],
+        "Hsyngkby\\Session\\SessionServiceProvider": []
     }
 }

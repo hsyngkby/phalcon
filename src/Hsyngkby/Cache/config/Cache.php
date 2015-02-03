@@ -2,10 +2,10 @@
 
 return [
     //cache dosyasının içindeki format
-    'frontend' => 'Json',
+    'frontend'         => 'Json',
 
     //cache tutacak sistem
-    'backend' => 'File',
+    'backend'          => 'File',
 
     'frontend_modules' => [
 
@@ -14,14 +14,14 @@ return [
 //         * yukaridaki modulu php ye kurmak gerekiyor.
 //         * detaylı bilgide linkte var.
 //         */
-        'Msgpack' => [
+        'Msgpack'  => [
             'lifetime' => 86400
         ],
 
 //        /**
 //         * It’s used to cache any kind of PHP data (big arrays, objects, text, etc). Data is serialized before stored in the backend.
 //         */
-        'Data' => [
+        'Data'     => [
             'lifetime' => 86400
         ],
 
@@ -38,14 +38,14 @@ return [
 //         * It’s used to cache binary data. The data is serialized using base64_encode before be stored in the backend.
 //         * Sadece String Kabul Ediyor.
 //         */
-        'Base64' => [
+        'Base64'   => [
             'lifetime' => 86400
         ],
 
 //        /**
 //         * Data is encoded in JSON before be stored in the backend. Decoded after be retrieved. This frontend is useful to share data with other languages or frameworks.
 //         */
-        'Json' => [
+        'Json'     => [
             'lifetime' => 86400
         ],
 
@@ -58,7 +58,7 @@ return [
 //         * $cache->save();
 //         *
 //         */
-        'Output' => [
+        'Output'   => [
             'lifetime' => 86400
         ],
 
@@ -66,12 +66,12 @@ return [
 //         * It’s used to cache any kind of PHP data without serializing them.
 //         * http://docs.phalconphp.com/en/latest/reference/cache.html#frontend-adapters
 //         */
-        'None' => [
+        'None'     => [
             'lifetime' => 86400
         ],
     ],
 
-    'backend_modules' => [
+    'backend_modules'  => [
 //        /**
 //         * Stores data to local plain files
 //         * http://docs.phalconphp.com/en/latest/api/Phalcon_Cache_Backend_File.html
@@ -79,8 +79,8 @@ return [
         /**
          * @todo File da expire olmuyor.
          */
-        'File' => [
-            'prefix' => null,
+        'File'         => [
+            'prefix'   => NULL,
             'cacheDir' => STORAGE_PATH . '/framework/cache/',
         ],
 
@@ -91,12 +91,12 @@ return [
 //         *
 //         * sudo apt-get install php5-memcache
 //         */
-        'Memcache' => [
-            'prefix' => null,
-            'host' => '127.0.0.1',
-            'port' => 11211,
-            'persistent' => false,
-            'statsKey' => '_PHCM'
+        'Memcache'     => [
+            'prefix'     => env('MC_PREFIX', NULL),
+            'host'       => env('MC_HOST', '127.0.0.1'),
+            'port'       => env('MC_PORT', 11211),
+            'persistent' => env('MC_PERSISTENT', FALSE),
+            'statsKey'   => '_PHCM'
         ],
 
 //        /**
@@ -107,8 +107,8 @@ return [
         /**
          * @todo increment decrement Expire işlemleri çalışmadı
          */
-        'Apc' => [
-            'prefix' => null,
+        'Apc'          => [
+            'prefix' => NULL,
         ],
 
 //        /**
@@ -118,10 +118,10 @@ return [
 //         * http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
 //         * sudo pecl install mongo  ve ini dosyası ayarları
 //         */
-        'Mongo' => [
-            'prefix' => null,
-            'server' => "mongodb://localhost",
-            'db' => "caches",
+        'Mongo'        => [
+            'prefix'     => NULL,
+            'server'     => env('MG_SERVER', "mongodb://localhost"),
+            'db'         => "caches",
             'collection' => "images"
         ],
 
@@ -131,15 +131,15 @@ return [
 //         * Kurulu gelmiyor. kurmak ve ayarlamak lazım.
 //         * Aynı APC gibi.
 //         */
-        'Xcache' => [
-            'prefix' => null,
+        'Xcache'       => [
+            'prefix' => NULL,
         ],
 
         /**
          * @todo database cache için ilk once database modulunu yazıp ayarlamam lazım.
          */
-        'Database' => [
-            'db' => 'current_db_connection',
+        'Database'     => [
+            'db'    => 'current_db_connection',
             'table' => 'cache_data'
         ],
 
@@ -149,9 +149,9 @@ return [
         /**
          * @todo increment decrement Functionları Class içinde yok
          */
-        'Redis' => [
-            'host' => '127.0.0.1',
-            'port' => 6379
+        'Redis'        => [
+            'host' => env('RDS_HOST', '127.0.0.1'),
+            'port' => env('RDS_PORT', 6379)
         ],
 
 //        /**
@@ -159,11 +159,11 @@ return [
 //         * Aslın "Memcached" kütüphanesi
 //         */
         'Libmemcached' => [
-            'tracking' => true,
-            'servers' => [
+            'tracking' => TRUE,
+            'servers'  => [
                 [
-                    'host' => '127.0.0.1',
-                    'post' => '11211',
+                    'host'   => '127.0.0.1',
+                    'post'   => '11211',
                     'weight' => 1
                 ]
             ],
@@ -171,18 +171,20 @@ return [
         ],
         /**
          * Class kendi içinde RAM de tutuyor.
+         *
          * @todo queryKeys işlem out of memory hatasına yol açıyor.
          * @todo Expire işlemi olmuyor.
          */
-        'Memory' => [
+        'Memory'       => [
         ],
 
         /**
          * Sadece Windows Serverlarda çalışır.
          * http://php.net/manual/en/wincache.requirements.php
+         *
          * @todo Windows server olmadığı için test edemedim.
          */
-        'Wincache' => [
+        'Wincache'     => [
         ],
     ]
 ];
