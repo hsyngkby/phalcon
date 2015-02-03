@@ -4,10 +4,12 @@
         "Hsyngkby\\Events\\EventsServiceProvider",
         "Hsyngkby\\Database\\DatabaseServiceProvider",
         "Hsyngkby\\Cookie\\CookieServiceProvider",
-        "Hsyngkby\\Session\\SessionServiceProvider"
+        "Hsyngkby\\Session\\SessionServiceProvider",
+        "Hsyngkby\\Router\\RouterServiceProvider"
     ],
     "eager": [
-        "Hsyngkby\\Events\\EventsServiceProvider"
+        "Hsyngkby\\Events\\EventsServiceProvider",
+        "Hsyngkby\\Router\\RouterServiceProvider"
     ],
     "deferred": {
         "cache": "Hsyngkby\\Cache\\CacheServiceProvider",

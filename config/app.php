@@ -17,6 +17,7 @@ return [
         'Hsyngkby\Database\DatabaseServiceProvider',
         'Hsyngkby\Cookie\CookieServiceProvider',
         'Hsyngkby\Session\SessionServiceProvider',
+        'Hsyngkby\Router\RouterServiceProvider',
     ],
 
     'aliases' => [
@@ -24,5 +25,6 @@ return [
         'Log' => 'Hsyngkby\Support\Facades\Log',
         'Cache' => 'Hsyngkby\Support\Facades\Cache',
         'Events' => 'Hsyngkby\Support\Facades\Events',
+        'Route' => 'Hsyngkby\Support\Facades\Route',
     ]
 ];
