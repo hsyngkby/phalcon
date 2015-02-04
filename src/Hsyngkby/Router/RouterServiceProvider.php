@@ -23,7 +23,7 @@ class RouterServiceProvider extends ServiceProvider
         __l('[ServiceProvider] RouterServiceProvider : Register');
 
         $this->app->set('router', function () {
-            $router = new \Phalcon\Mvc\Router();
+            $router = new \Phalcon\Mvc\Router(false);
 
             return $router;
         });
