@@ -15550,3 +15550,542 @@
 [Wed, 04 Feb 15 09:19:15 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
 [Wed, 04 Feb 15 09:19:15 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
 [Wed, 04 Feb 15 09:19:15 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Thu, 05 Feb 15 12:06:21 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Thu, 05 Feb 15 12:06:21 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Thu, 05 Feb 15 12:06:21 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Thu, 05 Feb 15 12:06:21 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Thu, 05 Feb 15 12:06:21 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Thu, 05 Feb 15 12:06:21 +0000][DEBUG] [App] registerConfiguredProviders
+[Thu, 05 Feb 15 12:06:21 +0000][DEBUG] [ProviderRepository] compileManifest
+[Thu, 05 Feb 15 12:06:21 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Thu, 05 Feb 15 12:06:22 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 12:40:34 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 16:14:33 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 16:14:33 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 16:14:33 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 16:14:33 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 16:14:33 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 16:14:34 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 16:14:34 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 16:14:34 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 16:14:34 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 16:14:34 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 16:18:46 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 16:18:46 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 16:18:46 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 16:18:46 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 16:18:46 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 16:19:40 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 16:19:40 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 16:19:40 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 16:19:40 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 16:19:40 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 16:19:44 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 16:19:44 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 16:19:44 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 16:19:44 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 16:19:44 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 16:20:47 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 16:20:47 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 16:20:47 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 16:20:47 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 16:20:47 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 16:22:04 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 16:22:04 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 16:22:04 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 16:22:04 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 16:22:04 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 16:36:24 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 16:36:24 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 16:36:24 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 16:36:24 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 16:36:24 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:35:54 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:36:01 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:36:01 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:36:01 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:36:01 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:36:02 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:37:53 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:37:54 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:07 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:38:08 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Boot
+[Fri, 06 Feb 15 17:39:03 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Boot
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:39:09 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:06 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:41:07 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Boot
+[Fri, 06 Feb 15 17:41:07 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Boot
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Boot
+[Fri, 06 Feb 15 17:41:17 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Boot
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:38 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Boot
+[Fri, 06 Feb 15 17:41:55 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Boot
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Boot
+[Fri, 06 Feb 15 17:42:07 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Boot
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Boot
+[Fri, 06 Feb 15 17:42:23 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Boot
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [Bootstrap] RegisterCoreProviders
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterSecurityManager
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterDispatcherManager
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [Bootstrap] RegisterCoreProviders -> RegisterCryptManager
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [Bootstrap] RegisterProviders
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [App] registerConfiguredProviders
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ProviderRepository] compileManifest
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] CacheServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cache\CacheServiceProvider 0 Events
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadConfig
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] DatabaseServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Database\DatabaseServiceProvider 0 Events
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] CookieServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Cookie\CookieServiceProvider 0 Events
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] SessionServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ProviderRepository] registerLoadEvents : Hsyngkby\Session\SessionServiceProvider 0 Events
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Events\EventsServiceProvider
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Register
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ProviderRepository] Register : Hsyngkby\Router\RouterServiceProvider
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : LoadConfig
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : loadHelper
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Register
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] EventsServiceProvider : Boot
+[Fri, 06 Feb 15 17:42:24 +0000][DEBUG] [ServiceProvider] RouterServiceProvider : Boot

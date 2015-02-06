@@ -33,9 +33,6 @@ class RouterServiceProvider extends ServiceProvider
         foreach (Finder::create()->files()->name('*.php')->in($directory) as $file) {
             include $file->getRealPath();
         }
-
-        dd($this->app->get('router'));
-
     }
 
     public static function loadConfig(Application $app)

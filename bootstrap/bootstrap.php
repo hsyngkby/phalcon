@@ -1,5 +1,4 @@
 <?php
-
 return [
     'Hsyngkby\Support\Bootstrap\DetectEnvironment',     //Environment i tespit et
     'Hsyngkby\Support\Bootstrap\SetFolderStructure',    //klasor yapısını .env dosyasından oku ve $app ye set et her biri için function var

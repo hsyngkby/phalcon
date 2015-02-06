@@ -2,7 +2,7 @@
 
 use BadMethodCallException;
 
-abstract class ServiceProvider {
+abstract class _ServiceProvider {
 
     /**
      * The application instance.
