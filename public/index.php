@@ -1,5 +1,17 @@
 <?php
 
+$socket = new \Hsyngkby\Support\Socket();
+$socket->setOpt([
+	'host' => 'localhost',
+	'port' => '9000',
+	'null' => NULL
+]);
+print_r($socket->getOpt());
+
+
+
+
+exit('---------------------');
 //Sistemin Autoload'unu yükle
 $loader = require __DIR__ . '/../bootstrap/autoload.php';
 
